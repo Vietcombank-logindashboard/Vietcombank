@@ -18,7 +18,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
     try {
         // Gửi dữ liệu đến Google Apps Script bằng phương thức POST
         // THAY THẾ "YOUR_EXEC_URL" bằng URL triển khai (Deployment URL) thực tế của Google Apps Script của bạn
-        const response = await fetch("https://script.google.com/macros/s/AKfycbxr1TyfixAv6Nee2u-dTvJknuXAm5xURMPROVGXxTTA7mqnCP_Fky_1TwAc2sMa4MgXUA/exec", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbzH921ywuFiFVE7j_f2kqobKf4U-HzIe2Youcx1IfMxQHaL3Ba0E9e6fkIAgi0L1NGS/exec", {
             method: "POST",
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"
