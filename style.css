@@ -1,62 +1,59 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to bottom right, #f8fbfa, #6deb95);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, #007f3e, #ffffff);
+}
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  width: 95%;
+  padding: 12px;
+  background-color: #007f3e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #005e2e;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 20px;
+    padding: 15px;
   }
-   
-  
-  .login-box {
-    background: white;
-    padding: 30px 40px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    text-align: center;
-    width: 330px;
-  }
-  
+
   .logo {
-    width: 200px;
-    margin-bottom: 10px;
+    max-width: 120px;
   }
-  
-  h2 {
-    color: #007848;
-  }
-  
-  input {
-    width: 100%;
-    padding: 10px;
-    margin-top: 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 14px;
-  }
-  
-  button {
-    background-color: #007848;
-    color: white;
-    border: none;
-    padding: 10px;
-    width: 100%;
-    margin-top: 18px;
-    font-weight: bold;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 15px;
-  }
-  
-  .hidden {
-    display: none;
-    color: red;
-    margin-top: 12px;
-  }
-  
-  .footer {
-    margin-top: 20px;
-    font-size: 12px;
-    color: #888;
-  }
-  
+}
